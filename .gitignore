@@ -1,0 +1,27 @@
+# Exclude virtual environment
+/.Legal_Assistant/
+
+# Exclude Python cache
+__pycache__/
+
+# Exclude dataset folder
+/dataset/
+
+# (Recommended) Typical Python ignores
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+*.egg-info/
+.dist-info/
+build/
+dist/
+
+# IDE/editor junk
+.vscode/
+.idea/
+
+# Env files & secrets
+.env
+*.env
