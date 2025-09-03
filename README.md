@@ -17,7 +17,7 @@ An intelligent, Retrieval-Augmented Generation (RAG) powered legal research assi
 ## 🚀 Live Demo
 
 A live instance of this application is hosted on Hugging Face Spaces:  
-**[https://huggingface.co/spaces/your-username/legal-assistant-ai](https://huggingface.co/spaces/your-username/legal-assistant-ai)**  
+**[https://huggingface.co/spaces/your-username/legal-assistant-ai](https://huggingface.co/spaces/PreetPatelRK30/legal-assistant-ai)**  
 
 ## 🛠️ Tech Stack
 
