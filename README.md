@@ -1,7 +1,3 @@
-Of course. Here is a comprehensive, professional `README.md` file for your Legal Assistant AI project, designed for deployment on Hugging Face Spaces.
-
----
-
 # ⚖️ Legal Assistant AI
 
 An intelligent, Retrieval-Augmented Generation (RAG) powered legal research assistant. This application allows you to upload legal documents (PDFs) and ask questions in natural language. It provides precise, citation-backed answers by searching through your private document library or the public web.
@@ -22,7 +18,6 @@ An intelligent, Retrieval-Augmented Generation (RAG) powered legal research assi
 
 A live instance of this application is hosted on Hugging Face Spaces:  
 **[https://huggingface.co/spaces/your-username/legal-assistant-ai](https://huggingface.co/spaces/your-username/legal-assistant-ai)**  
-*(Replace `your-username` with your actual Hugging Face username)*
 
 ## 🛠️ Tech Stack
 
@@ -89,17 +84,6 @@ Follow these steps to set up and run the project on your local machine.
     streamlit run app.py
     ```
     The app will open in your browser at `http://localhost:8501`.
-
-## ☁️ Deployment on Hugging Face Spaces
-
-This project is configured for easy deployment on Hugging Face Spaces using Docker.
-
-1.  **Create a New Space**: Go to [Hugging Face Spaces](https://huggingface.co/spaces) and create a new Space. Choose **"Docker"** as the SDK.
-2.  **Push Your Code**: Clone your Space's repo and push the code from this project, or upload the files directly via the UI.
-3.  **Add Secrets**: In your Space's settings, go to "Repository secrets" and add:
-    - `PINECONE_API_KEY` with your value.
-    - `GROQ_API_KEY` with your value.
-4.  **That's it!** Hugging Face will automatically build the Docker image and deploy your application. The build process typically takes a few minutes.
 
 ## 🗝️ Configuration
 
